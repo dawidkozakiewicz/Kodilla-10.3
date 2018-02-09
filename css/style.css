@@ -20,7 +20,7 @@ body {
   /*rozmiary div'a (takie jak elementów z listy)*/
   width: 800px;
   height: 600px;
- 
+  border-radius: 10px;
   /*rozwiązanie 'wylewania' się obrazków poza div'a*/
   overflow: hidden;
 }
