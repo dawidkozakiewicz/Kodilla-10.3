@@ -10,33 +10,26 @@ body {
   color: white;
 }
 #carousel {
-  /*wyśrodkowanie div'a horyzontalnie & wertykalnie*/
+
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  /*rozmiary div'a (takie jak elementów z listy)*/
   width: 800px;
   height: 600px;
   border-radius: 10px;
-  /*rozwiązanie 'wylewania' się obrazków poza div'a*/
   overflow: hidden;
 }
 ul {
-  /*szerokość listy = liczba elem. w karuzeli x szerokość 1 elementu*/
   width: 4000px;
-  /*usunięcie kropek z listy*/
   list-style-type: none;
-  /*Dopasowanie elementów listy do div'a*/
   padding: 0;
   margin: 0;
 }
 li {
   width: 800px;
   height: 600px;
-  /*list-style: none;*/
-  /*'płynność' przechodzenia obrazków*/
   float: left;
 }
